@@ -6,12 +6,12 @@ Documentation code lives in docs/source/*.rst and is in Restructed Text format a
 Install Sphinx
 ==============
 
-    pip install sphinx
+    pip install sphinx sphinx_rtd_theme
 
 To rebuild the documentation:
 
     # (cd to root of repository)
-    make docs
+    make html
 
 Documentation Submissions
 =========================
